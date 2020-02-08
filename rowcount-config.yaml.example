@@ -1,0 +1,15 @@
+user: "row_count"
+password: "secret_password"
+address: "10.12.55.4:3306"
+net: "tcp"
+nativepasswords: true
+databasestoignore:
+  - "percona"
+  - "mysql"
+  - "performance_schema"
+  - "information_schema"
+databasestoinclude: []
+tablestoignore:
+  - "mysql"
+maxworkers: 1000
+outputfile: "rowcount.txt"
